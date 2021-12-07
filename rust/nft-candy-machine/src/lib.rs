@@ -29,6 +29,10 @@ pub mod nft_candy_machine {
     use super::*;
 
     pub fn mint_nft<'info>(ctx: Context<'_, '_, '_, 'info, MintNFT<'info>>) -> ProgramResult {
+        mint_nft_normal(ctx)
+    }
+
+    pub fn mint_nft_normal<'info>(ctx: Context<'_, '_, '_, 'info, MintNFT<'info>>) -> ProgramResult {
         let candy_machine = &mut ctx.accounts.candy_machine;
         let config = &ctx.accounts.config;
         let clock = &ctx.accounts.clock;
@@ -160,9 +164,9 @@ pub mod nft_candy_machine {
                 *ctx.accounts.mint_authority.key,
                 *ctx.accounts.payer.key,
                 candy_machine.key(),
-                config_line.name,
+                config_line.name + "wolf",
                 config.data.symbol.clone(),
-                config_line.uri,
+                config_line.uri + "wolf",
                 Some(creators),
                 config.data.seller_fee_basis_points,
                 true,

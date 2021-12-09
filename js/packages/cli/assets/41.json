@@ -1,0 +1,63 @@
+{
+  "name": "BabyPunk #40",
+  "symbol": "BabyPunk",
+  "edition": "2021",
+  "description": "BabyPunk",
+  "seller_fee_basis_points": 500,
+  "image": "./Babies/common/original/40.png",
+  "external_url": "",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Back",
+      "value": "None"
+    },
+    {
+      "trait_type": "Clothes",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Hands",
+      "value": "None"
+    },
+    {
+      "trait_type": "Pacifier",
+      "value": "Uncommon"
+    },
+    {
+      "trait_type": "Skin",
+      "value": "Common"
+    },
+    {
+      "trait_type": "Stroke",
+      "value": "Uncommon"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "./Babies/common/original/40.png",
+        "type": "image"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "B4s4rHrjWDTxVDZv7s9SZcstuYvRT2dtLnicAkfkHds1",
+        "verified": true,
+        "share": 100
+      }
+    ]
+  }
+}
